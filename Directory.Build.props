@@ -1,0 +1,17 @@
+<Project>
+
+  <PropertyGroup>
+
+    <OutputPath Condition="'$(MSBuildProjectExtension)' != '.shfbproj'">..\bin\$(Configuration)\</OutputPath>
+    <DisableWinExeOutputInference>true</DisableWinExeOutputInference>
+    <LangVersion>Latest</LangVersion>
+    <OptionInfer>On</OptionInfer>
+    <OptionStrict>On</OptionStrict>
+    <OptionExplicit>On</OptionExplicit>
+    <DebugType>portable</DebugType>
+    <Deterministic>false</Deterministic>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+  </PropertyGroup>
+
+</Project>

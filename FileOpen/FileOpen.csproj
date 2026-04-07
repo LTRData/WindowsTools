@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+
+	<TargetFrameworks>net20;net40;net8.0-windows;net9.0-windows;net10.0-windows</TargetFrameworks>
+
+  </PropertyGroup>
+
+  <PropertyGroup>
+
+    <Title>FileOpen</Title>
+    <Company>LTR Data</Company>
+    <Product>FileOpen</Product>
+    <Copyright>Copyright (c) Olof Lagerkvist, LTR Data 2012-2021</Copyright>
+    <Trademark />
+    <FileVersion>1.0.0.0</FileVersion>
+    <ProductVersion>1.0.0.0</ProductVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Condition="'$(TargetFramework)' == 'net20'" Include="System.Windows.Forms" />
+  </ItemGroup>
+
+</Project>

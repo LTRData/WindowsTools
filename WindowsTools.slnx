@@ -2,6 +2,7 @@
   <Folder Name="/Solution Items/">
     <File Path="Directory.Build.props" />
   </Folder>
+  <Project Path="ColorList/ColorList.csproj" />
   <Project Path="Dataviewer/Dataviewer.vbproj" />
   <Project Path="FileOpen/FileOpen.csproj" />
   <Project Path="GraphViewer/GraphViewer.vbproj" />

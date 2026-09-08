@@ -313,7 +313,7 @@ Partial Class GraphView
         Me.ClearSurfaceBeforeDrawingToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.ClearSurfaceBeforeDrawingToolStripMenuItem.Name = "ClearSurfaceBeforeDrawingToolStripMenuItem"
         Me.ClearSurfaceBeforeDrawingToolStripMenuItem.Size = New System.Drawing.Size(279, 22)
-        Me.ClearSurfaceBeforeDrawingToolStripMenuItem.Text = "&Clear surface before drawing new graph"
+        Me.ClearSurfaceBeforeDrawingToolStripMenuItem.Text = "&Replace previous graphs on redraw"
         '
         'DrawCalculatedderivativeGraphToolStripMenuItem
         '
@@ -322,14 +322,14 @@ Partial Class GraphView
         Me.DrawCalculatedderivativeGraphToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.DrawCalculatedderivativeGraphToolStripMenuItem.Name = "DrawCalculatedderivativeGraphToolStripMenuItem"
         Me.DrawCalculatedderivativeGraphToolStripMenuItem.Size = New System.Drawing.Size(279, 22)
-        Me.DrawCalculatedderivativeGraphToolStripMenuItem.Text = "Draw calculated &derivative graph"
+        Me.DrawCalculatedderivativeGraphToolStripMenuItem.Text = "Draw numerical &derivative graph"
         '
         'DrawCalculatedantiderivativeGraphToolStripMenuItem
         '
         Me.DrawCalculatedantiderivativeGraphToolStripMenuItem.CheckOnClick = True
         Me.DrawCalculatedantiderivativeGraphToolStripMenuItem.Name = "DrawCalculatedantiderivativeGraphToolStripMenuItem"
         Me.DrawCalculatedantiderivativeGraphToolStripMenuItem.Size = New System.Drawing.Size(279, 22)
-        Me.DrawCalculatedantiderivativeGraphToolStripMenuItem.Text = "Draw calculated &antiderivative graph"
+        Me.DrawCalculatedantiderivativeGraphToolStripMenuItem.Text = "Draw numerical &integral graph"
         '
         'AboutToolStripMenuItem
         '

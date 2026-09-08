@@ -6,5 +6,6 @@
   <Project Path="Dataviewer/Dataviewer.vbproj" />
   <Project Path="FileOpen/FileOpen.csproj" />
   <Project Path="GraphViewer/GraphViewer.vbproj" />
+  <Project Path="GraphViewer.Review/GraphViewer.Review.csproj" />
   <Project Path="QuickBrowser/QuickBrowser.csproj" />
 </Solution>

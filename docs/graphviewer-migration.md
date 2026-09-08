@@ -1,7 +1,7 @@
 # GraphViewer modern expression and plotting API review
 
-GraphViewer now consumes `LTRData.MathExpression` 1.1.0-preview.1 and
-`LTRData.FunctionPlotting` 0.2.0-preview.1 through NuGet. The existing net35/net40
+GraphViewer now consumes `LTRData.MathExpression` 1.1.0 and
+`LTRData.FunctionPlotting` 1.2.0 through NuGet. The existing net35/net40
 and net8.0-windows/net9.0-windows/net10.0-windows targets remain.
 
 The old `ScriptControl`/`Surface` implementation and the `LTRLib.Windows` package
@@ -71,8 +71,9 @@ a CI artifact. Library's
 explains source mapping and fresh caches to ensure the locally built packages are
 used. There are no project references across repositories.
 
-Manually review print preview and your actual printers, DPI scaling, saved
-preferences, and curve appearance at your usual ranges. Compilation of net35/net40
-does not establish execution on an old Windows installation. FreeBSD SkiaSharp
-work and XML serialization assemblies remain deferred; they are not dependencies
-of this migration.
+The application owner has built and tested this migration successfully. Actual
+printers, DPI scaling, saved preferences and curve appearance at usual ranges
+remain useful manual review cases. Compilation of net35/net40 does not establish
+execution on an old Windows installation. FreeBSD SkiaSharp work remains deferred;
+XML serialization generation is addressed in ltrwebdb. Neither is a dependency
+of this application.
